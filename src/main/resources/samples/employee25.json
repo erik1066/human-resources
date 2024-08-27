@@ -1,0 +1,44 @@
+{
+    "id" : "e7084fb5-5b5a-44dc-8b0c-35b89f6dd9a8",
+    "firstName" : "Alicia",
+    "lastName" : "Jimenez",
+    "startDate" : "2017-03-01T00:00:00.000",
+    "title" : "Administrative Assistant",
+    "email" : "alicia.jimenez@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "3456 Santa Cruz Blvd",
+    "streetAddress2" : "Apt 800",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30326",
+
+    "department": "Human Resources",
+    "managerId" : "a1b0af19-aa12-479d-a2a2-72d56c98ebec",
+
+    "bio": "Can anyone else see this?",
+
+    "workPhone" : "404-555-0008",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2307, 
+
+    "reviews" : [
+        {
+            "id" : "40e8f5d1-7fa2-420e-9079-6ec5b8d0cfc3",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Alma Kawana",
+            "fromId" : "a1b0af19-aa12-479d-a2a2-72d56c98ebec",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.5
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

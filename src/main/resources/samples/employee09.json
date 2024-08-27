@@ -1,0 +1,44 @@
+{
+    "id" : "f1c0641e-9c3b-4a25-a1e6-8e22c11d3e3c",
+    "firstName" : "Chet",
+    "lastName" : "Dawson",
+    "startDate" : "2017-01-01T00:00:00.000",
+    "title" : "Human Resources Director",
+    "email" : "chet.dawson@xyz.com",
+    "photoUrl" : "icon09.png",
+    "streetAddress1" : "2434 Jersey Road",
+    "streetAddress2" : null,
+    "city" : "John's Creek",
+    "state" : "GA",
+    "zip" : "30005",
+
+    "department": "Human Resources",
+    "managerId" : "774614f2-6c16-4158-a439-3c8e0c707c2e",
+
+    "bio": "I have 22 years of experience specializing in small to mid-size organizations and providing guidance and leadership to executives in startup, growth and stable organizations. I have broad experience including benefits, employee relations, payroll, talent acquisition and management. I have a B.S. from Kennesaw State University in Political Science.",
+
+    "workPhone" : "404-555-2177",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 5153, 
+
+    "reviews" : [
+        {
+            "id" : "137e29f8-61e1-4c58-9324-ff059cfb62cf",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Jason Williams",
+            "fromId" : "774614f2-6c16-4158-a439-3c8e0c707c2e",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "You got us staffed up in short order and with few complaints or personnel issues, those that have arisen have been handled. Keep it up!",
+            "score" : 9.5
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

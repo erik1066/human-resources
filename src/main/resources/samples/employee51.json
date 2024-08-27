@@ -1,0 +1,44 @@
+{
+    "id" : "a89f76a9-12d5-4e4c-8eba-68c151418ca6",
+    "firstName" : "Seth",
+    "lastName" : "Roman",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Line Worker",
+    "email" : "Seth.Roman@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "7000 Longview Road",
+    "streetAddress2" : null,
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Manufacturing",
+    "managerId" : "29cc10c4-52fe-43d6-b393-8cd92921e44f",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-7012",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2669, 
+
+    "reviews" : [
+        {
+            "id" : "b5f0c360-d066-4353-bf07-36ede1ce0604",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Enrique Bautista",
+            "fromId" : "29cc10c4-52fe-43d6-b393-8cd92921e44f",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.7
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

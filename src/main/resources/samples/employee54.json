@@ -1,0 +1,44 @@
+{
+    "id" : "b266e1f3-ea40-4fc5-93f2-54f6f2e8d3b0",
+    "firstName" : "Mario",
+    "lastName" : "Gomez",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Junior Line Worker",
+    "email" : "Mario.Gomez@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "334 Vanet Road",
+    "streetAddress2" : null,
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Manufacturing",
+    "managerId" : "29cc10c4-52fe-43d6-b393-8cd92921e44f",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-7015",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2369, 
+
+    "reviews" : [
+        {
+            "id" : "e8c726e5-368b-4ac1-9528-252012ead4d9",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Enrique Bautista",
+            "fromId" : "29cc10c4-52fe-43d6-b393-8cd92921e44f",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.7
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

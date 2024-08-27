@@ -1,0 +1,44 @@
+{
+    "id" : "30a6bf97-65e6-4e33-9866-b4bc29f82e8b",
+    "firstName" : "Sachin",
+    "lastName" : "Patel",
+    "startDate" : "2017-04-01T00:00:00.000",
+    "title" : "Accounting Director",
+    "email" : "sachin.patel@xyz.com",
+    "photoUrl" : "icon20.png",
+    "streetAddress1" : "3250 Peachtree Road NE",
+    "streetAddress2" : "Unit 1500",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30326",
+
+    "department": "Accounting",
+    "managerId" : "8ed48913-2b00-4aa9-bbaf-69f8def26e00",
+
+    "bio": "Graduate of the Indian Institude of Technology. Fifteen years experience doing accounting work for IT firms. I play volleyball and racquetball in my spare time.",
+
+    "workPhone" : "404-555-1349",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 5384, 
+
+    "reviews" : [
+        {
+            "id" : "f1aa83fd-d9e8-489e-a417-34ae19563eb1",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Marcy Smith",
+            "fromId" : "8ed48913-2b00-4aa9-bbaf-69f8def26e00",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.0
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

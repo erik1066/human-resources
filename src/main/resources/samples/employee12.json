@@ -1,0 +1,44 @@
+{
+    "id" : "6fb7ea14-e848-4304-91d0-3a0abd625c4e",
+    "firstName" : "Kayeigh",
+    "lastName" : "Flowers",
+    "startDate" : "2017-03-01T00:00:00.000",
+    "title" : "Data Analyst",
+    "email" : "kayeigh.flowers@xyz.com",
+    "photoUrl" : "icon10.png",
+    "streetAddress1" : "1234 Houston Mill Rd",
+    "streetAddress2" : "Apt 100",
+    "city" : "Decatur",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Marketing",
+    "managerId" : "d3b38edc-8367-4e36-86ce-b3218230291a",
+
+    "bio": "Recent grad from GSU with a few years experience doing market research... looking forward to working at XYZ!",
+
+    "workPhone" : "404-555-1478",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 3076, 
+
+    "reviews" : [
+        {
+            "id" : "c30002ab-e8a8-40fc-88ff-7c8e615d60e7",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Jennifer Kim",
+            "fromId" : "d3b38edc-8367-4e36-86ce-b3218230291a",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 9.0
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

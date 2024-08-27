@@ -1,0 +1,70 @@
+<div class="container-fluid">
+
+    <style>
+        .table > tbody > tr > td {
+             vertical-align: middle;
+        }    
+    </style>
+    
+    <div class="row">
+
+        <div class="col-xs-12" 
+        style="
+        margin-top: 30px;
+        background-color: white;
+        border-top: 1px solid #e7eaec;
+        padding: 20px;
+        ">
+
+        <div style="border-bottom: 1px dotted #e7eaec;">
+
+            <div ng-include="'self-profile-summary.html'"></div>         
+        
+          <!-- <h2>Summary of Requests</h2> -->
+
+          <table class="table table-bordered table-striped">
+            <caption>Summary of requests</caption>
+            <thead>
+              <tr>
+                <td>
+                  
+                </td>
+                <td>
+                    Submit Date
+                </td>
+
+                <td>
+                  Type
+                </td>
+
+                <td>
+                  Status
+                </td>
+
+                <td>
+                  Comments
+                </td>
+              </tr>
+            </thead>
+            
+            <tbody>
+              <tr ng-repeat="request in employee.requests">
+                <td><small><a href="#">Details</a></small></td>
+                <td>{{ request.dateCreated | date:'short' }}</td>
+                <td>{{ requestTypeStringTransformer(request) }}</td>
+                <td>
+                    <span class="label align-bottom" ng-class="{'label-success': request.status === 'Approved', 'label-danger': request.status === 'Denied' || request.status === 'Expired', 'label-warning': request.status === 'PendingManager' || request.status === 'PendingHR', 'label-info': request-status === 'PendingEmployee'}">
+                        {{ request.status }}
+                    </span>
+                </td>
+                <td>{{ request.submitterComments }}</td>
+              </tr>
+            </tbody>
+            
+          </table>
+  
+      </div>
+  
+  </div>
+    
+</div>

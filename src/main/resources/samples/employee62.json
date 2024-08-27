@@ -1,0 +1,44 @@
+{
+    "id" : "a5bc6fa6-7b0b-4066-b74a-05281e751d64",
+    "firstName" : "Sierra",
+    "lastName" : "Navarro",
+    "startDate" : "2017-06-01T00:00:00.000",
+    "title" : "Legal Services Director",
+    "email" : "sierra.navarro@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "4433 Blair Cicle NE",
+    "streetAddress2" : null,
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Legal",
+    "managerId" : "1284ac30-8b03-44fb-96c1-50b04ec13ee6",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-7023",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2769, 
+
+    "reviews" : [
+        {
+            "id" : "a3444450-b215-4e74-affb-dc314f278d88",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Sarah Menendez",
+            "fromId" : "1284ac30-8b03-44fb-96c1-50b04ec13ee6",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 10.0
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

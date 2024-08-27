@@ -1,0 +1,44 @@
+{
+    "id" : "85b0a4a7-aadd-46a2-ab77-b6ae948b5857",
+    "firstName" : "Linda",
+    "lastName" : "Ferrell",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Plant Manager",
+    "email" : "linda.ferrell@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "1243 Oakvale Drive",
+    "streetAddress2" : null,
+    "city" : "Lakeside",
+    "state" : "GA",
+    "zip" : "30081",
+
+    "department": "Manufacturing",
+    "managerId" : "437d3a90-d40f-4a3d-a72c-fccd85e49ffb",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-7003",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 4769, 
+
+    "reviews" : [
+        {
+            "id" : "20966561-0c8b-4f9b-aea5-bfecf33f55c2",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Larry Kyle",
+            "fromId" : "437d3a90-d40f-4a3d-a72c-fccd85e49ffb",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.7
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

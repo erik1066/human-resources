@@ -1,0 +1,44 @@
+{
+    "id" : "4398ecdb-d3e7-4cc3-8670-7f680d60941d",
+    "firstName" : "Dianna",
+    "lastName" : "Roberts",
+    "startDate" : "2017-03-01T00:00:00.000",
+    "title" : "Data Analyst",
+    "email" : "dianna.roberts@xyz.com",
+    "photoUrl" : "icon17.png",
+    "streetAddress1" : "3333 North Decatur Road",
+    "streetAddress2" : "Apt 200",
+    "city" : "Decatur",
+    "state" : "GA",
+    "zip" : "30329",
+
+    "department": "Marketing",
+    "managerId" : "d3b38edc-8367-4e36-86ce-b3218230291a",
+
+    "bio": "Can't wait for Game of Thrones season 8. Tyrion for the win!",
+
+    "workPhone" : "404-555-0920",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 3461, 
+
+    "reviews" : [
+        {
+            "id" : "3476d5ac-f2a1-4133-84b4-dec2daac7b16",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Jennifer Kim",
+            "fromId" : "d3b38edc-8367-4e36-86ce-b3218230291a",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.0
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

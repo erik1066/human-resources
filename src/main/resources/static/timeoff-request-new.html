@@ -1,0 +1,70 @@
+<div class="container-fluid">
+    
+        <style>
+        .table > tbody > tr > td {
+             vertical-align: middle;
+        }    
+        </style>
+        
+        <div class="row">
+    
+            <div class="col-sm-12 col-md-12 col-lg-8" 
+            style="
+            margin-top: 30px;
+            background-color: white;
+            border-top: 1px solid #e7eaec;
+            padding: 20px;
+            ">
+    
+                <div style="border-bottom: 1px dotted #e7eaec;">
+    
+                    <div ng-include="'self-profile-summary.html'"></div>                          
+    
+                    <h2>New Leave Request</h2>
+
+                    <form novalidate>
+                    
+                        <fieldset>
+                            <legend class="sr-only">Which type of leave are you requesting?</legend>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" ng-model="newrequest.typestring" name="type" id="typeRadio1" value="Annual">
+                                    Annual leave
+                                </label>
+                            </div>
+
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" ng-model="newrequest.typestring" name="type" id="typeRadio2" value="Sick">
+                                    Sick leave
+                                </label>
+                            </div>
+                                <!-- <input type="radio" name="type" value="Annual" />Annual leave<br />
+                                <input type="radio" name="type" value="Sick" />Sick leave<br /> -->
+                        </fieldset>
+
+                        <div class="form-group">
+                            <label for="dateBegins">Leave start date/time:</label>
+                            <input ng-model="newrequest.timeOff.dateBegins" class="form-control" type="datetime-local" id="dateBegins" name="dateBegins">                            
+                        </div>
+
+                        <div class="form-group">
+                            <label for="dateEnds">Leave end date/time:</label>
+                            <input ng-model="newrequest.timeOff.dateEnds" class="form-control" type="datetime-local" id="dateEnds" name="dateEnds">                            
+                        </div>
+
+                        <div class="form-group">
+                            <label for="comments">Comments:</label>
+                            <textarea ng-model="newrequest.submitterComments" class="form-control" id="comments" rows="3"></textarea>
+                        </div>
+
+                        <button class="btn btn-primary" ng-click="submitTimeOffRequest(newrequest)">Submit</button>
+
+                    </form>
+
+                    <!-- <a class="btn btn-primary" style="margin-bottom: 1em;" href="/api/timeoff/create">Submit</a> -->
+            
+                </div>
+            </div>
+        </div>
+    </div>

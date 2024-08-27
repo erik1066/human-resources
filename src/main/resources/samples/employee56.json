@@ -1,0 +1,44 @@
+{
+    "id" : "c5b09c54-52dd-4c43-9354-46c2faded9b7",
+    "firstName" : "Kaley",
+    "lastName" : "Owen",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Line Worker",
+    "email" : "Kaley.Owen@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "5610 Sheridan Drive",
+    "streetAddress2" : null,
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Manufacturing",
+    "managerId" : "6e346d4d-44da-419a-9578-88d1f57b9432",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-7017",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2769, 
+
+    "reviews" : [
+        {
+            "id" : "969c04bd-d25a-4826-a150-ac1069737a5f",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Mary Cisneros",
+            "fromId" : "6e346d4d-44da-419a-9578-88d1f57b9432",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 9.0
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

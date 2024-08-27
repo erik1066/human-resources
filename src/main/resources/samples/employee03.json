@@ -1,0 +1,27 @@
+{
+    "id" : "1284ac30-8b03-44fb-96c1-50b04ec13ee6",
+    "firstName" : "Sarah",
+    "lastName" : "Menendez",
+    "startDate" : "2017-01-01T00:00:00.000",
+    "title" : "Chief Executive Officer",
+    "email" : "sarah.menendez@xyz.com",
+    "photoUrl" : "icon16.png",
+    "streetAddress1" : "3456 Decatur Ave",
+    "streetAddress2" : "Apt 300",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30333",
+
+    "department": "Executive",
+    "managerId" : "f1c0641e-9c3b-4a25-a1e6-8e22c11d3e3c",
+
+    "workPhone" : "404-555-3456",
+    "homePhone" : "404-555-3456",
+    "cellPhone" : "404-555-3456",
+    
+    "isActive" : true,
+    "salary" : 8269, 
+
+    "requests" : [
+    ]    
+}

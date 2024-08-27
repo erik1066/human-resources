@@ -1,0 +1,91 @@
+<div class="container-fluid">
+        
+            <style>
+            .table > tbody > tr > td {
+                 vertical-align: middle;
+            }    
+            </style>
+            
+            <div class="row">
+        
+                <div class="col-sm-12 col-md-12 col-lg-8" 
+                style="
+                margin-top: 30px;
+                background-color: white;
+                border-top: 1px solid #e7eaec;
+                padding: 20px;
+                ">
+        
+                    <div style="border-bottom: 1px dotted #e7eaec;">
+        
+                        <div ng-include="'self-profile-summary.html'"></div>                           
+        
+                        <h2>Request Details</h2>                        
+        
+                        <table class="table table-bordered table-striped table-condensed">
+                            <thead class="sr-only">
+                                <tr>
+                                    <th>Request Property</th>
+                                    <th>Value</th>
+                                </tr>
+                            </thead>
+        
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Status</th>
+                                    <td class="align-bottom">
+                                        <span class="label" ng-class="{'label-success': currentRequest().status === 'Approved', 'label-danger': currentRequest().status === 'Denied' || currentRequest().status === 'Expired', 'label-warning': currentRequest().status === 'PendingManager' || currentRequest().status === 'PendingHR', 'label-info': currentRequest().status === 'PendingEmployee'}">                                                    
+                                            {{ currentRequest().status }}
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Request date</th>
+                                    <td>{{ currentRequest().dateCreated | date:'MMMM d, yyyy' }}</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Start date</th>
+                                    <td>{{ currentRequest().timeOff.dateBegins | date:'MMMM d, yyyy' }}</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">End date</th>
+                                    <td>{{ currentRequest().timeOff.dateEnds | date:'MMMM d, yyyy' }}</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Days accrued</th>
+                                    <td>{{ currentRequest().timeOff.daysAccrued }}</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Days used</th>
+                                    <td>{{ currentRequest().timeOff.daysUsed }}</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Days available</th>
+                                    <td>{{ currentRequest().timeOff.daysAvailable }}</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Days scheduled</th>
+                                    <td>{{ currentRequest().timeOff.daysScheduled }}</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Submitter comments</th>
+                                    <td>{{ currentRequest().submitterComments }}</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                        <a class="btn btn-primary" style="margin-bottom: 1em;" href="/#!employee/timeoff">Back to Time Off summary</a>
+                
+                    </div>
+                </div>
+            </div>
+        </div>

@@ -1,0 +1,72 @@
+        
+            <form class="form-inline well well-sm clearfix">
+                <span class="glyphicon glyphicon-search"> </span>
+                <input type="text" 
+                placeholder="Employee Search"
+                class ="form-control" 
+                ng-model="searchEmployee">
+                  <button type = "button" class= "btn btn-info pull-right"> 
+
+                  <strong>Add new employee</strong>
+                </button>
+          </form>
+
+          <table class="table table-bordered table-striped">
+</style>
+<tbody>
+<thead>
+<tr>
+  <td>
+    <a href="?#!/sysadmin/search" ng-click="sortType = 'firstName'; sortReverse = !sortReverse">
+    First Name
+      <span ng-show="sortType == 'firstName' && !sortReverse" class="fa fa-caret-down"></span>
+      <span ng-show="sortType == 'firstName' && sortReverse" class="fa fa-caret-up"></span>
+    </a>
+  </td>
+  <td>
+    <a href="?#!/sysadmin/search" ng-click="sortType = 'lastName'; sortReverse = !sortReverse">
+    Last Name
+      <span ng-show="sortType == 'lastName' && !sortReverse" class="fa fa-caret-down"></span>
+      <span ng-show="sortType == 'lastName' && sortReverse" class="fa fa-caret-up"></span>
+    </a>
+  </td>
+  <td>
+    <a href="?#!/sysadmin/search" ng-click="sortType = 'email'; sortReverse = !sortReverse">
+    Email
+      <span ng-show="sortType == 'email' && !sortReverse" class="fa fa-caret-down"></span>
+      <span ng-show="sortType == 'email' && sortReverse" class="fa fa-caret-up"></span>
+    </a>
+  </td>
+  <td>
+    <a href="?#!/sysadmin/search" ng-click="sortType = 'department'; sortReverse = !sortReverse">
+    Department
+      <span ng-show="sortType == 'department' && !sortReverse" class="fa fa-caret-down"></span>
+      <span ng-show="sortType == 'department' && sortReverse" class="fa fa-caret-up"></span>
+    </a>
+  </td>
+  <td>
+      Action
+      <div class="btn-group" role="group" aria-label="...">
+          </div>
+      </a>
+    </td>
+</tr>
+</thead>
+  <tr ng-repeat="employee in employees | orderBy:sortType:sortReverse | filter:searchEmployee">
+    <td>{{ employee.firstName }}</td>
+    <td>{{ employee.lastName }}</td>  
+    <td>{{ employee.email }}</td>   
+    <td>{{ employee.department }}</td>   
+    <td><button type="button" class="btn btn-info"><i class="glyphicon glyphicon-search">
+      </i></button>
+      <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-pencil">
+      </i></button>
+      <button type="button" class="btn btn-danger"><i class="glyphicon glyphicon-trash">
+      </i></button></td>   
+  </tr>
+  
+</tbody>
+
+</table>
+
+      

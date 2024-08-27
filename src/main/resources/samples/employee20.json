@@ -1,0 +1,44 @@
+{
+    "id" : "feaf8af1-797b-4927-bceb-890b734de755",
+    "firstName" : "Laura",
+    "lastName" : "Monroe",
+    "startDate" : "2017-07-01T00:00:00.000",
+    "title" : "Accountant",
+    "email" : "laura.monroe@xyz.com",
+    "photoUrl" : "icon24.png",
+    "streetAddress1" : "3000 Northside Drive",
+    "streetAddress2" : "Apt 2000",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30327",
+
+    "department": "Accounting",
+    "managerId" : "30a6bf97-65e6-4e33-9866-b4bc29f82e8b",
+
+    "bio": "Love the beach, traveling, and of course... account management. No, seriously. I do.",
+
+    "workPhone" : "404-555-0003",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 3846, 
+
+    "reviews" : [
+        {
+            "id" : "e4493c2f-46d6-4401-af86-4e14a309db8c",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Sachin Patel",
+            "fromId" : "30a6bf97-65e6-4e33-9866-b4bc29f82e8b",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.5
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

@@ -1,0 +1,44 @@
+{
+    "id" : "b5d5c761-f467-458c-87ee-f35ee8347c9c",
+    "firstName" : "Janet",
+    "lastName" : "Chen",
+    "startDate" : "2017-08-01T00:00:00.000",
+    "title" : "Senior Accountant",
+    "email" : "janet.chen@xyz.com",
+    "photoUrl" : "icon23.png",
+    "streetAddress1" : "3000 Roswell Road NE",
+    "streetAddress2" : "Apt 1000",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30326",
+
+    "department": "Accounting",
+    "managerId" : "30a6bf97-65e6-4e33-9866-b4bc29f82e8b",
+
+    "bio": "Passionate about accounting! I also play the piano and do acting in my spare time.",
+
+    "workPhone" : "404-555-0002",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 4807, 
+
+    "reviews" : [
+        {
+            "id" : "20b82633-f7cc-4341-84e1-bedfab5ffb41",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Sachin Patel",
+            "fromId" : "30a6bf97-65e6-4e33-9866-b4bc29f82e8b",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.5
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

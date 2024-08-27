@@ -1,0 +1,43 @@
+{
+    "id" : "03ccfc58-7573-48e3-b6ee-5a0caab17d29",
+    "firstName" : "Elias",
+    "lastName" : "Uriostegui",
+    "startDate" : "2017-03-01T00:00:00.000",
+    "title" : "HR Specialist",
+    "email" : "elias.uriostegui@xyz.com",
+    "photoUrl" : "icon27.png",
+    "streetAddress1" : "818 Flowers Rd",
+    "streetAddress2" : null,
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30326",
+
+    "department": "Human Resources",
+    "managerId" : "a1b0af19-aa12-479d-a2a2-72d56c98ebec",
+
+    "bio": "No comments",
+
+    "workPhone" : "404-555-0011",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2884,
+    
+    "reviews" : [
+        {
+            "id" : "fabdf4af-8c98-4de3-9164-f812e7d9d579",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Alma Kawana",
+            "fromId" : "a1b0af19-aa12-479d-a2a2-72d56c98ebec",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.5
+        }
+    ],
+    
+    "requests" : [        
+    ]    
+}

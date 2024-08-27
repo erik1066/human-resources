@@ -1,0 +1,44 @@
+{
+    "id" : "37bc5918-5317-4cc9-9c4f-b9c55480cf45",
+    "firstName" : "Danny",
+    "lastName" : "Clements",
+    "startDate" : "2017-05-01T00:00:00.000",
+    "title" : "Data Analyst",
+    "email" : "danny.clements@xyz.com",
+    "photoUrl" : "icon18.png",
+    "streetAddress1" : "40 South Marietta Parkway",
+    "streetAddress2" : "Apt 300",
+    "city" : "Marietta",
+    "state" : "GA",
+    "zip" : "30043",
+
+    "department": "Marketing",
+    "managerId" : "d3b38edc-8367-4e36-86ce-b3218230291a",
+
+    "bio": "Hunting, fishing, hiking, biking... and data science.",
+
+    "workPhone" : "404-555-2468",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 3346, 
+
+    "reviews" : [
+        {
+            "id" : "313c0eee-f646-4197-af5c-f67cb51aa636",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Jennifer Kim",
+            "fromId" : "d3b38edc-8367-4e36-86ce-b3218230291a",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.6
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

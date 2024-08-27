@@ -1,0 +1,127 @@
+{
+    "id" : "c0011a7e-5fe3-4144-9156-fef7ae12cff8",
+    "firstName" : "Maria",
+    "lastName" : "Sanchez",
+    "startDate" : "2017-01-01T00:00:00.000",
+    "title" : "Chief Technology Officer",
+    "email" : "maria.sanchez@xyz.com",
+    "photoUrl" : "icon03.png",
+    "streetAddress1" : "1111 Peachtree Road NE",
+    "streetAddress2" : "Apt 100",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30326",
+
+    "department": "Executive",
+    "managerId" : "1284ac30-8b03-44fb-96c1-50b04ec13ee6",
+
+    "bio": "Hello! I'm the co-founder and CEO of XYZ. Prior to XYZ, I was CEO of Thoughtify Communications, an internet service for business-to-business integration. I was also a senior vice president at Succeedly, overseeing search and community business units. I hold an MBA from Stanford Graduate School of Business. I love to fly planes in my spare time, which is far too little nowadays!",
+
+    "workPhone" : "404-555-1234",
+    "homePhone" : "404-555-1234",
+    "cellPhone" : "404-555-1234",
+    
+    "isActive" : true,
+    "salary" : 6538, 
+
+    "reviews" : [
+        {
+            "id" : "6c44250c-3bc9-43e3-936a-2f9d30457030",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Sarah Menendez",
+            "fromId" : "1284ac30-8b03-44fb-96c1-50b04ec13ee6",
+            "dateCreated" : "2017-07-15T13:00:00.000",
+            "text" : "Excellent job, Maria! You've successfully led our microservice initiative and have set up our critical IT infrastructure in the cloud.",
+            "score" : 10.0            
+        }
+    ],
+
+    "requests" : [
+        {
+            "id": "e35e4b9b-9e04-4648-93fc-c9bc5cbe319d",
+            "dateCreated" : "2017-02-15T13:00:00.000",
+            "status" : "Approved",
+            "type" : "AnnualLeave",
+            "submitterId" : "c0011a7e-5fe3-4144-9156-fef7ae12cff8",
+            "submitterRole" : "Employee",
+            "submitterComments" : "Asking for some time off to visit my family in North Carolina",
+            "actions" : [
+                {
+                    "id" : "85f637f4-6be3-4a62-b838-be24882e12e6",
+                    "actorId" : "1284ac30-8b03-44fb-96c1-50b04ec13ee6",
+                    "dateCreated" : "2017-02-15T14:00:00.000",
+                    "dateActedOn" : "2017-02-15T14:00:00.000",
+                    "actorRole" : "Manager",
+                    "actorComments" : "Approved, have a good time!",
+                    "outcome" : "Approved"
+                }
+            ],
+            "timeOff" : {
+                "dateBegins" : "2017-02-20T00:00:00.000",
+                "dateEnds" : "2017-02-21T23:59:59.999",
+                "daysUsed" : 0.0,
+                "daysAccrued" : 1.5,
+                "daysScheduled" : 0.0,
+                "daysAvailable" : 1.5
+            }
+        },
+        {
+            "id": "91b7f680-6eaf-4fed-83ac-61d007e78e8c",
+            "dateCreated" : "2017-03-15T08:00:00.000",
+            "status" : "Approved",
+            "type" : "SickLeave",
+            "submitterId" : "c0011a7e-5fe3-4144-9156-fef7ae12cff8",
+            "submitterRole" : "Employee",
+            "submitterComments" : "Not feeling well this morning",
+            "actions" : [
+                {
+                    "id" : "a4ba3a5d-99e7-4cd1-913d-d9067b67e2f9",
+                    "actorId" : "1284ac30-8b03-44fb-96c1-50b04ec13ee6",
+                    "dateCreated" : "2017-03-15T11:00:00.000",
+                    "dateActedOn" : "2017-03-15T11:00:00.000",
+                    "actorRole" : "Manager",
+                    "actorComments" : "Feel better soon, Maria!",
+                    "outcome" : "Approved"
+                }
+            ],
+            "timeOff" : {
+                "dateBegins" : "2017-03-15T00:00:00.000",
+                "dateEnds" : "2017-03-15T23:59:59.999",
+                "daysUsed" : 0.0,
+                "daysAccrued" : 2.5,
+                "daysScheduled" : 0.0,
+                "daysAvailable" : 2.5
+            }     
+        },
+        {
+            "id": "24a5218a-84e8-427e-aa3f-02deb9f5034b",
+            "dateCreated" : "2017-03-16T07:00:00.000",
+            "status" : "Approved",
+            "type" : "SickLeave",
+            "submitterId" : "c0011a7e-5fe3-4144-9156-fef7ae12cff8",
+            "submitterRole" : "Employee",
+            "submitterComments" : "Still not feeling well",
+            "actions" : [
+                {
+                    "id" : "366afe9f-cc71-4a1d-82d2-99ea199fb5a2",
+                    "actorId" : "1284ac30-8b03-44fb-96c1-50b04ec13ee6",
+                    "dateCreated" : "2017-03-16T08:00:00.000",
+                    "dateActedOn" : "2017-03-16T08:00:00.000",
+                    "actorRole" : "Manager",
+                    "actorComments" : "I hope everything is ok...",
+                    "outcome" : "Approved"
+                }
+            ],
+            "timeOff" : {
+                "dateBegins" : "2017-03-16T00:00:00.000",
+                "dateEnds" : "2017-03-16T23:59:59.999",
+                "daysUsed" : 1.0,
+                "daysAccrued" : 2.5,
+                "daysScheduled" : 0.0,
+                "daysAvailable" : 1.5
+            }     
+        }
+    ]    
+}

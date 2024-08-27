@@ -1,0 +1,85 @@
+<div class="container-fluid">
+
+    <style>
+    .table > tbody > tr > td {
+         vertical-align: middle;
+    }    
+    </style>
+    
+    <div class="row">
+
+        <div class="col-sm-12 col-md-12 col-lg-8" 
+        style="
+        margin-top: 30px;
+        background-color: white;
+        border-top: 1px solid #e7eaec;
+        padding: 20px;
+        ">
+
+            <div style="border-bottom: 1px dotted #e7eaec;">
+
+                <div ng-include="'self-profile-summary.html'"></div>                         
+                
+                <a href="#!/employee/timeoff/newrequest" class="btn btn-primary btn-sm"><i class="fa fa-plane"></i> Request time off</a>
+
+                <br /><br />
+
+                <!-- <h2>Time Off <a href="#!/employee/timeoff/newrequest" class="btn btn-primary btn-sm" style="float: right;"><i class="fa fa-plane"></i> Request time off</a></h2> -->
+
+                
+                        <table class="table table-bordered table-striped table-condensed" style="width: 1px;">
+                            <caption>Leave balance</caption>
+                            <thead>
+                                <tr>
+                                    <th>Leave&nbsp;Type</th>
+                                    <th>Balance&nbsp;(hours)</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td><p>Annual</p></td>
+                                    <td><p class="text-right">100.25</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Sick</p></td>
+                                    <td><p class="text-right">200.75</p></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                <!-- <h3>Leave Requests</h3> -->
+
+                <table class="table table-bordered table-striped table-condensed">
+                    <caption>Leave requests</caption>
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Accrued</th>
+                            <th>Used</th>
+                            <th>Scheduled</th>
+                            <th>Available</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr ng-repeat="request in employee.requests | filter:filterTimeOff">
+                            <th scope="row"><a href="/#!employee/timeoff/request/{{ request.id }}">{{ requestTypeStringTransformer(request) }}</a></td>
+                            <td>{{ request.timeOff.daysAccrued }}</td>
+                            <td>{{ request.timeOff.daysUsed }}</td>
+                            <td>{{ request.timeOff.daysScheduled }}</td>
+                            <td>{{ request.timeOff.daysAvailable }}</td>
+                            <td class="align-bottom">
+                                <span class="label align-bottom" ng-class="{'label-success': request.status === 'Approved', 'label-danger': request.status === 'Denied', 'label-warning': request.status === 'PendingManager', 'label-info': request-status === 'PendingEmployee'}">
+                                    {{ request.status }}
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+        
+            </div>
+        </div>
+    </div>
+</div>

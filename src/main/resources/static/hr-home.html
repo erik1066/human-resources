@@ -1,0 +1,70 @@
+<div class="container-fluid" ng-app="app" ng-controller="HrLandingController">
+    
+        <div class="row">
+    
+            <div class="col-xs-12" 
+            style="
+            margin-top: 30px;
+            background-color: white;
+            border-top: 1px solid #e7eaec;
+            padding: 20px;
+            ">
+    
+            <form>
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-addon"><i class="fa fa-search"></i></div>
+                    <input type="text" class="form-control" placeholder="Employee Search" ng-model="searchEmployee">
+                  </div>      
+                </div>
+              </form>
+
+              <table class="table table-bordered table-striped">
+                <thead>
+                  <tr>
+                    <td>
+                       Last Name
+                    </td>
+                    <td>
+                        First Name
+                      </td>
+                    <td>
+                        Department
+                      </td>
+                    <td>
+                        Rank
+                      </td>
+                    <td>
+                        Task
+                      </td>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr ng-repeat="employee in employees">
+                    <td>{{employee.LastName}}</td>
+                    <td>{{employee.FirstName}}</td>
+                    <td>{{employee.Department}}</td>
+                    <td>{{employee.Rank}}</td>
+                    <td>
+                    <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-pencil">
+                    </i></button>
+                    <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-usd">
+                    </i></button>
+                    <button type="button" class="btn btn-danger"><i class="glyphicon glyphicon-trash">
+                    </i></button></td>
+                  </tr>
+                </tbody>
+              </table>
+              <div>
+
+              </div>
+
+              
+            
+    
+        </div>
+    
+    
+    
+    </div>

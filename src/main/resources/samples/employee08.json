@@ -1,0 +1,44 @@
+{
+    "id" : "7beba382-da71-4b0f-98e5-7cb03c7dd3f0",
+    "firstName" : "Margaret",
+    "lastName" : "Taranto",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Senior Business Analyst",
+    "email" : "margaret.taranto@xyz.com",
+    "photoUrl" : "icon16.png",
+    "streetAddress1" : "4512 Hilltop Drive",
+    "streetAddress2" : null,
+    "city" : "John's Creek",
+    "state" : "GA",
+    "zip" : "30005",
+
+    "department": "Engineering",
+    "managerId" : "930811d9-bdba-48b6-854d-2244d0bcdc5b",
+
+    "bio": "I've been doing business analysis for twenty years. Among other ventures, I've produced requirements for the Go-ca-Cola logistics IT system, parts of the F-35 Joint Strike Fighter, and for the student management system at Agnes Scott College in Decatur, GA.",
+
+    "workPhone" : "404-555-2456",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 4230, 
+
+    "reviews" : [
+        {
+            "id" : "98d4ffd9-1de3-4bd6-a891-4050b4e23d2c",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Tiffany Zhang",
+            "fromId" : "930811d9-bdba-48b6-854d-2244d0bcdc5b",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Excellent work!",
+            "score" : 8.5
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

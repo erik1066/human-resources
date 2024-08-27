@@ -1,0 +1,44 @@
+{
+    "id" : "c9e42691-b6c0-4ab8-b836-65a10a64619e",
+    "firstName" : "Melissa",
+    "lastName" : "Bagwell",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Line Worker",
+    "email" : "Melissa.Bagwell@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "5234 Montford Road",
+    "streetAddress2" : null,
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Manufacturing",
+    "managerId" : "29cc10c4-52fe-43d6-b393-8cd92921e44f",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-7013",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2569, 
+
+    "reviews" : [
+        {
+            "id" : "bf71abe2-628c-4a87-8c23-e533bb6b4303",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Enrique Bautista",
+            "fromId" : "29cc10c4-52fe-43d6-b393-8cd92921e44f",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.7
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

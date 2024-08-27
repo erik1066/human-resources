@@ -1,0 +1,22 @@
+<div class="container-fluid" ng-app="app" ng-controller="ManagerController">
+    
+        <div class="row">
+    
+            <div class="col-xs-12" 
+            style="
+            margin-top: 30px;
+            background-color: white;
+            border-top: 1px solid #e7eaec;
+            padding: 20px;
+            ">
+
+            <form id="myform">
+              <p><strong>Salary Adjustment:</strong></p>
+              <p><bold>Original Salary: </bold> {{ employee.salary * 26  | currency }} </p>
+              <p><bold>New Salary: </bold>  <input type= "text"><br><br></p>
+              <p><input type="submit" value="Submit" /> <input type="submit" value="Cancel" /></p>
+              </form>
+    
+    
+    
+    </div>

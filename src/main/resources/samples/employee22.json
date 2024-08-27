@@ -1,0 +1,44 @@
+{
+    "id" : "8ed48913-2b00-4aa9-bbaf-69f8def26e00",
+    "firstName" : "Marcy",
+    "lastName" : "Smith",
+    "startDate" : "2017-01-09T00:00:00.000",
+    "title" : "Chief Financial Officer",
+    "email" : "marcy.smith@xyz.com",
+    "photoUrl" : "icon26.png",
+    "streetAddress1" : "8900 Mason Drive",
+    "streetAddress2" : null,
+    "city" : "John's Creek",
+    "state" : "GA",
+    "zip" : "30005",
+
+    "department": "Executive",
+    "managerId" : "1284ac30-8b03-44fb-96c1-50b04ec13ee6",
+
+    "bio": "I'm the Chief Financial Officer at XYZ, where I manage the company's finances and played a key role in our IPO. I also served as CFO for Youhalf, Inc., the leading half-finding company in the United States. I played a key role in taking Youhalf public in 2008 and reaching over $500M in revenue before being acquired by Terminator Equity Partners. I also held leadership roles at SupportIt and Offendme, LLP. Outside of work, I stay busy spending time with four daughters, hang-gliding, or training for another marathon. I hold a BS in Accounting from Georgia Tech.",
+
+    "workPhone" : "404-555-2771",
+    
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 6760, 
+
+    "reviews" : [
+        {
+            "id" : "c2c54676-4b6d-460c-9ff1-e5be397cbe97",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Sarah Menendez",
+            "fromId" : "1284ac30-8b03-44fb-96c1-50b04ec13ee6",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.5
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

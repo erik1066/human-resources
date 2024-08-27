@@ -1,0 +1,44 @@
+{
+    "id" : "6e346d4d-44da-419a-9578-88d1f57b9432",
+    "firstName" : "Mary",
+    "lastName" : "Cisneros",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Foreman",
+    "email" : "mary.cisneros@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "1243 Oakvale Drive",
+    "streetAddress2" : null,
+    "city" : "Lakeside",
+    "state" : "GA",
+    "zip" : "30081",
+
+    "department": "Manufacturing",
+    "managerId" : "85b0a4a7-aadd-46a2-ab77-b6ae948b5857",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-7005",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 3153, 
+
+    "reviews" : [
+        {
+            "id" : "ccdaab15-d333-4fb7-8729-d63e6754f391",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Linda Ferrell",
+            "fromId" : "85b0a4a7-aadd-46a2-ab77-b6ae948b5857",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.7
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

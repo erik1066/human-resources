@@ -1,0 +1,44 @@
+{
+    "id" : "58eb6fe0-ebdd-4919-a786-f7da1a5792df",
+    "firstName" : "Alexa",
+    "lastName" : "Davos",
+    "startDate" : "2017-06-01T00:00:00.000",
+    "title" : "Accountant",
+    "email" : "alexa.davos@xyz.com",
+    "photoUrl" : "icon25.png",
+    "streetAddress1" : "1424 10th Ave",
+    "streetAddress2" : "Apt 550",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30324",
+
+    "department": "Accounting",
+    "managerId" : "30a6bf97-65e6-4e33-9866-b4bc29f82e8b",
+
+    "bio": "I love coffee, crossword puzzles, and math!",
+
+    "workPhone" : "404-555-0005",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 3800,
+    
+    "reviews" : [
+        {
+            "id" : "403b333f-59d6-48b7-a7ac-282b28717d81",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Sachin Patel",
+            "fromId" : "30a6bf97-65e6-4e33-9866-b4bc29f82e8b",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.5
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

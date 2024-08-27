@@ -1,0 +1,44 @@
+{
+    "id" : "29cc10c4-52fe-43d6-b393-8cd92921e44f",
+    "firstName" : "Enrique",
+    "lastName" : "Bautista",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Foreman",
+    "email" : "enrique.bautista@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "4444 Shallowford Road NE",
+    "streetAddress2" : null,
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Manufacturing",
+    "managerId" : "85b0a4a7-aadd-46a2-ab77-b6ae948b5857",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-7006",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 3153, 
+
+    "reviews" : [
+        {
+            "id" : "66ee0b76-fcdb-4bb0-8e30-e4e76d55e97d",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Linda Ferrell",
+            "fromId" : "85b0a4a7-aadd-46a2-ab77-b6ae948b5857",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.7
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

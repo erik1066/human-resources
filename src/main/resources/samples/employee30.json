@@ -1,0 +1,44 @@
+{
+    "id" : "a1b0af19-aa12-479d-a2a2-72d56c98ebec",
+    "firstName" : "Alma",
+    "lastName" : "Kawana",
+    "startDate" : "2017-03-01T00:00:00.000",
+    "title" : "HR Manager",
+    "email" : "alma.kawana@xyz.com",
+    "photoUrl" : "icon29.png",
+    "streetAddress1" : "378 Dawson Way",
+    "streetAddress2" : null,
+    "city" : "Kennesaw",
+    "state" : "GA",
+    "zip" : "30144",
+
+    "department": "Human Resources",
+    "managerId" : "f1c0641e-9c3b-4a25-a1e6-8e22c11d3e3c",
+
+    "bio": "Hiking!",
+
+    "workPhone" : "404-555-0013",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 3384, 
+
+    "reviews" : [
+        {
+            "id" : "6de2a4a8-c644-4e06-8e8a-347da9a607e0",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Chet Dawson",
+            "fromId" : "f1c0641e-9c3b-4a25-a1e6-8e22c11d3e3c",
+            "dateCreated" : "2017-07-14T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.5
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

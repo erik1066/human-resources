@@ -1,0 +1,43 @@
+{
+    "id" : "d0a71c69-c6c2-4280-a9d7-17054117647c",
+    "firstName" : "Kim",
+    "lastName" : "Trung",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Lead Information Security Officer",
+    "email" : "kim.trung@xyz.com",
+    "photoUrl" : "icon32.png",
+    "streetAddress1" : "3452 Jackson Terrace",
+    "streetAddress2" : "Apt 2400",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30326",
+
+    "department": "Engineering",
+    "managerId" : "c0011a7e-5fe3-4144-9156-fef7ae12cff8",
+
+    "bio": "Stopping hackers!",
+
+    "workPhone" : "404-555-2421",
+    "homePhone" : null,
+    "cellPhone" : "404-555-1038",
+    
+    "isActive" : true,
+    "salary" : 6000,
+
+    "reviews" : [
+        {
+            "id" : "0ea5fc76-01d7-4d64-959e-e7ff3b26f4ee",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Maria Sanchez",
+            "fromId" : "c0011a7e-5fe3-4144-9156-fef7ae12cff8",
+            "dateCreated" : "2017-07-14T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 9.0
+        }
+    ],
+
+    "requests" : [
+    ]    
+}

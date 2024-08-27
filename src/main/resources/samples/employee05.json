@@ -1,0 +1,43 @@
+{
+    "id" : "930811d9-bdba-48b6-854d-2244d0bcdc5b",
+    "firstName" : "Tiffany",
+    "lastName" : "Zhang",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Lead Engineer",
+    "email" : "tiffany.zhang@xyz.com",
+    "photoUrl" : "icon12.png",
+    "streetAddress1" : "5678 Ponce de Leon Ave",
+    "streetAddress2" : "Apt 650",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30333",
+
+    "department": "Engineering",
+    "managerId" : "c0011a7e-5fe3-4144-9156-fef7ae12cff8",
+
+    "bio": "M.S. in Computer Science from Georgia Tech in 2012 with a focus in distributed computing technologies. Five years experience as a Java web developer, leading app containerization and microservice architecture initiatives at various startups. Love Indian food, hiking, everything Pinterest, and Game of Thrones and passionate about programming!",
+
+    "workPhone" : "404-555-0090",
+    "homePhone" : null,
+    "cellPhone" : "404-555-1252",
+    
+    "isActive" : true,
+    "salary" : 5384,
+
+    "reviews" : [
+        {
+            "id" : "c56e5525-59bd-4738-82c8-0c64a014078c",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Maria Sanchez",
+            "fromId" : "c0011a7e-5fe3-4144-9156-fef7ae12cff8",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Amazing work on the microservices initiative, the CEO is very impressed with our progress and it's mostly your technical skills and leadership that's gotten us to this point. I know things are hectic but your work ethic is impressive and please keep up the great work!",
+            "score" : 10.0
+        }
+    ],
+
+    "requests" : [
+    ]    
+}

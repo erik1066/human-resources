@@ -1,0 +1,44 @@
+{
+    "id" : "1d9ebaef-25d3-4d0b-bf61-ef3215194592",
+    "firstName" : "Page",
+    "lastName" : "Brooks",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Line Worker",
+    "email" : "Page.Brooks@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "2345 Harrison Ave",
+    "streetAddress2" : "Unit 100",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Manufacturing",
+    "managerId" : "6e346d4d-44da-419a-9578-88d1f57b9432",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-7021",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2769, 
+
+    "reviews" : [
+        {
+            "id" : "f6a9a7b5-7a58-42e1-856d-be5c7a1c19f3",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Mary Cisneros",
+            "fromId" : "6e346d4d-44da-419a-9578-88d1f57b9432",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 9.0
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

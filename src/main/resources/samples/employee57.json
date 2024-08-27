@@ -1,0 +1,44 @@
+{
+    "id" : "04e68b0b-6637-46eb-afae-2d73f4b199b8",
+    "firstName" : "Mark",
+    "lastName" : "Rodgers",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Line Worker",
+    "email" : "Mark.Rodgers@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "3410 Parklake Ave",
+    "streetAddress2" : "Apt 450",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Manufacturing",
+    "managerId" : "6e346d4d-44da-419a-9578-88d1f57b9432",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-7018",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2769, 
+
+    "reviews" : [
+        {
+            "id" : "34e6a171-7ccc-4a32-9f91-62459311ffdb",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Mary Cisneros",
+            "fromId" : "6e346d4d-44da-419a-9578-88d1f57b9432",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 9.0
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

@@ -1,0 +1,212 @@
+<html lang="en">
+    <head>
+        <title>Human Resources | HR</title>
+
+        <base href="/" >
+
+        <!-- v45 -->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="/scripts/app/jquery.min.js"></script>
+        <script src="/scripts/app/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-resource.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.min.js"></script>
+        <script src="/scripts/hr.js"></script>
+        <!-- <script src="/scripts/FooModule.js"></script> -->
+
+        <script src="/scripts/MainController.js"></script>
+        <script src="/scripts/ProfileController.js"></script>
+        <script src="/scripts/PerformanceController.js"></script>
+        <script src="/scripts/EmployeeHomeController.js"></script>
+        <script src="/scripts/ManagerController.js"></script>
+        <script src="/scripts/EmployeeService.js"></script>  
+        <script src="/scripts/SystemAdminController.js"></script>
+        <script src="/scripts/HrLandingController.js"></script> 
+
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>        
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet" type='text/css'>
+        <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>        
+        
+        <link href='/styles/sidebar.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- <link rel="stylesheet" href="/styles/app/bootstrap.min.css"> -->
+        <!-- <link rel="stylesheet" href="style.css" /> -->
+        <style type="text/css">
+            body
+            {
+                font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                background-color: #f3f3f4; 
+                color: #676a6c;
+            }
+            label
+            {
+                font-size: 13px;
+                font-weight: 700;
+            }
+
+        </style>
+    </head>
+
+<body ng-app="hr">
+
+    <main ng-controller="MainController as main">
+
+        <div id="wrapper" class="toggled">
+                      
+            <!-- Sidebar -->
+            <nav>
+                <div id="sidebar-wrapper" style="color: #a7b1c2; background-color: #2f4050">
+                    <ul class="sidebar-nav" ng-if="getCurrentUserRole() === 'Employee'">
+                        <li class="sidebar-brand">
+                            <a href="/#!employee">
+                                Hello, {{ currentEmployee.firstName }}!
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/#!employee"><i class="fa fa-id-card-o"></i> Profile</a>
+                        </li>
+                        <li>
+                            <a href="/#!employee/performance"><i class="fa fa-line-chart"></i> Performance</a>
+                        </li>
+                        <li>
+                            <a href="/#!employee/timeoff"><i class="fa fa-plane"></i> Time off</a>
+                        </li>
+                        <li>
+                            <a href="/#!employee/requests"><i class="fa fa-edit"></i> Requests</a>
+                        </li>
+                    </ul>
+
+                    <ul class="sidebar-nav" ng-if="getCurrentUserRole() === 'Sysadmin'">
+                        <li class="sidebar-brand">
+                            <a href="/#!sysadmin/search">
+                                System Admin, {{ currentEmployee.firstName }}!
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/#!sysadmin/search"><i class="fa fa-search"></i> Search User</a>
+                        </li>
+                        <li>
+                            <a href="/#!sysadmin/maintenance"><i class="fa fa-wrench"></i> Maintenance</a>
+                        </li>
+                    </ul>
+
+                    <ul class="sidebar-nav" ng-if="getCurrentUserRole() === 'HR'">
+                        <li class="sidebar-brand">
+                            <a href="/#!hr">
+                                Hello, {{ currentEmployee.firstName }}!
+                            </a>
+                        </li>
+                            <li>
+                                <a href="/#!sysadmin/hrvacationapproval"><i class="fa fa-check"></i> Vaction Approval</a>
+                            </li>
+                            <li>
+                                    <a href="/#!sysadmin/hrsalary"><i class="fa fa-usd"></i> Salary</a>
+                            </li>
+                            <li>
+                                    <a href="/#!sysadmin/hrtermination"><i class="fa fa-trash"></i> Terminate</a>
+                            </li>
+                        <li>
+                            <a href="/#!hr"><i class="fa fa-id-card-o"></i> HR Home</a>
+                        </li>
+                    </ul>
+
+                    <ul class="sidebar-nav" ng-if="getCurrentUserRole() === 'Manager'">
+                        <li class="sidebar-brand">
+                            <a href="/#!manager">
+                                Hello, {{ currentEmployee.firstName }}!
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/#!manager"><i class="fa fa-id-card-o"></i> Manager Home</a>
+                        </li>
+                    </ul>
+                      
+
+                  </div>
+              </nav>
+              <!-- /#sidebar-wrapper -->
+      
+              <!-- Page Content -->
+            <div id="page-content-wrapper">
+
+                <div class="row" style="background-color: #f3f3f4; 
+                    margin-left: -20px; 
+                    margin-right: -20px; 
+                    margin-top: -20px; 
+                    padding-right: 20px; 
+                    padding-top: 14px; 
+                    padding-bottom: 6px; 
+                    border-bottom: 1px solid #e7eaec;">
+
+                    <div class="col col-xs-9">
+
+                        <button class="btn btn-info btn-sm"><i class="fa fa-bars"></i></button>
+
+                        <input type="text" style="margin-left: 15px; border: 0px; background: transparent;" placeholder="search..." />
+
+                        <!-- <select id="roleChanger" ng-model="currentRole" ng-change="setCurrentUserRole(currentRole)">
+                            <option value="Employee" selected>Employee</option>
+                            <option value="Manager">Manager</option>
+                            <option value="Sysadmin">System admin</option>                              
+                            <option value="HR">Human Resources</option>
+                        </select> -->
+
+                        <div class="dropdown" style="display: inline-block;">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuRole" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Change Role
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuRole">
+                                <li ng-click="setCurrentUserRole('Employee')"><a>Employee</a></li>
+                                <li ng-click="setCurrentUserRole('Manager')"><a>Manager</a></li>
+                                <li ng-click="setCurrentUserRole('HR')"><a>Human Resources</a></li>
+                                <li ng-click="setCurrentUserRole('Sysadmin')"><a>System Admin</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="col col-xs-3">
+                        <p style="text-align: right;"><i class="fa fa-sign-out"></i> Logout</p>
+                    </div>                        
+                    
+                </div>
+
+                  <div class="row" style="background-color: white; 
+                      margin-left: -20px; 
+                      margin-right: -20px; 
+                      padding-right: 20px; 
+                      padding-bottom: 6px; 
+                      padding-left: 14px;
+                      padding-right: 14px;
+                      border-bottom: 1px solid #e7eaec;">
+
+                      <h1 style="font-size: 24px; font-weight: 100;">{{ main.$route.current.title }}</h2>
+
+                      <ol class="breadcrumb" style="background-color: inherit; margin-bottom: 4px; padding-left: 4px;">
+                          <li>
+                              <a href="/">Home</a>
+                          </li>
+                      </ol>
+                      
+                    </div>
+
+                    <div ng-view>
+                    </div>
+                  
+                </div>
+                <!-- /#page-content-wrapper -->
+      
+            </div>
+            <!-- /#wrapper -->
+              
+          
+
+        </main>
+
+    </body>
+</html>

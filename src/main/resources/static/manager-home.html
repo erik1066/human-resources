@@ -1,0 +1,102 @@
+<div class="container-fluid" ng-app="app" ng-controller="ManagerController">
+    
+        <div class="row">
+    
+            <div class="col-xs-12" 
+            style="
+            margin-top: 30px;
+            background-color: white;
+            border-top: 1px solid #e7eaec;
+            padding: 20px;
+            ">
+    
+            <form>
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-addon"><i class="fa fa-search"></i></div>
+                    <input type="text" class="form-control" placeholder="Employee Search" ng-model="searchEmployee">
+                  </div>      
+                </div>
+              </form>
+
+              <table class="table table-bordered table-striped">
+                
+                <thead>
+                  <tr>
+                    <td>
+                      <a href="?#!/manager" ng-click="sortType = 'FirstName'; sortReverse = !sortReverse">
+                        First Name 
+                        <span ng-show="sortType == 'FirstName' && !sortReverse" class="fa fa-caret-down"></span>
+                        <span ng-show="sortType == 'FirstName' && sortReverse" class="fa fa-caret-up"></span>
+                      </a>
+                    </td>
+                    <td>
+                      <a href="?#!/manager" ng-click="sortType = 'LastName'; sortReverse = !sortReverse">
+                      Last Name
+                        <span ng-show="sortType == 'lastName' && !sortReverse" class="fa fa-caret-down"></span>
+                        <span ng-show="sortType == 'lastName' && sortReverse" class="fa fa-caret-up"></span>
+                      </a>
+                    </td>
+                    <td>
+                      <a href="?#!/manager" ng-click="sortType = 'Department'; sortReverse = !sortReverse">
+                      Department
+                        <span ng-show="sortType == 'Rank' && !sortReverse" class="fa fa-caret-down"></span>
+                        <span ng-show="sortType == 'Rank' && sortReverse" class="fa fa-caret-up"></span>
+                      </a>
+                    </td>
+                    <td>
+                      <a href="?#!/manager" ng-click="sortType = 'Rank'; sortReverse = !sortReverse">
+                      Rank
+                        <span ng-show="sortType == 'Rank' && !sortReverse" class="fa fa-caret-down"></span>
+                        <span ng-show="sortType == 'Rank' && sortReverse" class="fa fa-caret-up"></span>
+                      </a>
+                    </td>
+                    <td>
+                      Action
+                     </td>
+                  </tr>
+                </thead>
+                
+                <tbody>
+                  <tr ng-repeat="employee in name | orderBy:sortType:sortReverse | filter:searchEmployee">
+                    <td>{{ employee.FirstName }}</td>
+                    <td>{{ employee.LastName }}</td>
+                    <td>{{ employee.Department }}</td>
+                    <td>{{ employee.Rank }}</td>
+                    <td>
+                      <a class="btn btn-sm btn-info" href="#!/manager/EmployeeProfile/{{ employee.id }}">
+                        <i class="glyphicon glyphicon-eye-open">
+                        </i>
+                      </a>
+
+                      <!-- <button type = "button" class="btn btn-sm btn-info"
+                          ng-click= "EmployeeProfile();">
+                          <i class="glyphicon glyphicon-eye-open">
+                          </i></button> -->
+                      <button type="button" class="btn btn-default"
+                          ng-click= "evaluations();">
+                          <i class="glyphicon glyphicon-pencil">
+                          </i></button>
+                      <button type="button" class="btn btn-default"
+                          ng-click= "SalaryChange();">
+                          <i class="glyphicon glyphicon-usd">
+                          </i></button>
+                      <button type="button" class="btn btn-danger"
+                          ng-click= "DeleteRequest();">
+                          <i class="glyphicon glyphicon-trash">
+                          </i></button>
+                      </a>
+                    </td>
+
+                  </tr>
+                </tbody>
+                
+              </table>
+              
+            
+    
+        </div>
+    
+    
+    
+    </div>

@@ -1,0 +1,44 @@
+{
+    "id" : "cbc0632f-abf4-4162-9864-f3b1538f2691",
+    "firstName" : "Vincent",
+    "lastName" : "Jarsoz",
+    "startDate" : "2017-03-01T00:00:00.000",
+    "title" : "Data Scientist",
+    "email" : "vincent.jarsoz@xyz.com",
+    "photoUrl" : "icon07.png",
+    "streetAddress1" : "1000 Clairmont Road NE",
+    "streetAddress2" : "Unit 200",
+    "city" : "Brookhaven",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Marketing",
+    "managerId" : "d3b38edc-8367-4e36-86ce-b3218230291a",
+
+    "bio": "North Carolina native, I love the outdoors... and Python.",
+
+    "workPhone" : "404-555-2466",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 4230, 
+
+    "reviews" : [
+        {
+            "id" : "2988bc95-dc8f-4174-b2c3-5ea89f62ff02",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Jennifer Kim",
+            "fromId" : "d3b38edc-8367-4e36-86ce-b3218230291a",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job, V!",
+            "score" : 9.0
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

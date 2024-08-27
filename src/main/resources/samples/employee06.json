@@ -1,0 +1,44 @@
+{
+    "id" : "db3f69b2-6b2b-47e6-b646-598a7d68f7c5",
+    "firstName" : "Jessica",
+    "lastName" : "Nguyen",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Senior Engineer",
+    "email" : "jessica.nguyen@xyz.com",
+    "photoUrl" : "icon13.png",
+    "streetAddress1" : "9821 Piedmont Road",
+    "streetAddress2" : "Apt 700",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30326",
+
+    "department": "Engineering",
+    "managerId" : "930811d9-bdba-48b6-854d-2244d0bcdc5b",
+
+    "bio": "I'm an E.E. at heart and love programming embedded systems in C and C++ in my spare time. Lately I've found myself programming object-oriented bricks in Java and C#, and fixing other people's castles in the sky... love it though! Excited about the Braves next season (let's not speak of THIS season, please... omg)",
+
+    "workPhone" : "404-555-6245",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 4807, 
+
+    "reviews" : [
+        {
+            "id" : "3d8ab3e0-87af-4d11-b601-979602886074",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Tiffany Zhang",
+            "fromId" : "930811d9-bdba-48b6-854d-2244d0bcdc5b",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job! My recommendation is to keep improving at Java programming.",
+            "score" : 9.0
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

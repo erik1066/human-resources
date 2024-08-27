@@ -1,0 +1,44 @@
+{
+    "id" : "bfcb28a6-665f-46b9-918a-53db46c643f6",
+    "firstName" : "Ivy",
+    "lastName" : "Logan",
+    "startDate" : "2017-06-01T00:00:00.000",
+    "title" : "Attorney",
+    "email" : "Ivy.Logan@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "5634 Roberts Way",
+    "streetAddress2" : null,
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Legal",
+    "managerId" : "c09a8186-8bbd-4ce7-a443-718f63e99d3e",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-7024",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2769, 
+
+    "reviews" : [
+        {
+            "id" : "4db3bd6c-791c-453f-ba5b-fcd2fa7e1818",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Sierra Navarro",
+            "fromId" : "c09a8186-8bbd-4ce7-a443-718f63e99d3e",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 10.0
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

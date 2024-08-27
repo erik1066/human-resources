@@ -1,0 +1,44 @@
+{
+    "id" : "9ecaf90c-3e28-468d-8594-62fffbc85a4a",
+    "firstName" : "Lauren",
+    "lastName" : "Rudisill",
+    "startDate" : "2017-06-01T00:00:00.000",
+    "title" : "DevOps Engineer",
+    "email" : "lauren.rudisill@xyz.com",
+    "photoUrl" : "icon31.png",
+    "streetAddress1" : "243 Howell Mill Road",
+    "streetAddress2" : "Unit 340",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30326",
+
+    "department": "Engineering",
+    "managerId" : "d3b38edc-8367-4e36-86ce-b3218230291a",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-0016",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 4613, 
+
+    "reviews" : [
+        {
+            "id" : "07243573-9a83-42f6-816a-48967370bc61",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Tiffany Zhang",
+            "fromId" : "d3b38edc-8367-4e36-86ce-b3218230291a",
+            "dateCreated" : "2017-07-14T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 10.0
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

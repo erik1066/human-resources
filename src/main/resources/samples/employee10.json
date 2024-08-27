@@ -1,0 +1,44 @@
+{
+    "id" : "6b5c86cd-e0bb-479f-adfa-3add5fdc5880",
+    "firstName" : "Haley",
+    "lastName" : "Ackworth",
+    "startDate" : "2017-03-01T00:00:00.000",
+    "title" : "Data Scientist",
+    "email" : "haley.ackworth@xyz.com",
+    "photoUrl" : "icon11.png",
+    "streetAddress1" : "3345 Peachtree Road",
+    "streetAddress2" : "Unit 400",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30326",
+
+    "department": "Marketing",
+    "managerId" : "d3b38edc-8367-4e36-86ce-b3218230291a",
+
+    "bio": "Five years of experience doing data science in R, Python, and SQL. I have an MPH from Emory with a specialization in biostatistics. Go dawgs!",
+
+    "workPhone" : "404-555-0246",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 4230, 
+
+    "reviews" : [
+        {
+            "id" : "0a8fb46f-9dd1-4667-8629-f6d20913c935",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Jennifer Kim",
+            "fromId" : "d3b38edc-8367-4e36-86ce-b3218230291a",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job, Haley",
+            "score" : 9.5
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

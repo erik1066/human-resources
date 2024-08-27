@@ -1,0 +1,48 @@
+<div class="container-fluid">
+        
+    <div class="row">
+
+        <div class="col-sm-12 col-md-12 col-lg-8" 
+        style="
+        margin-top: 30px;
+        background-color: white;
+        border-top: 1px solid #e7eaec;
+        padding: 20px;
+        ">
+    
+            <div style="border-bottom: 1px dotted #e7eaec;">
+
+                <!-- <div ng-include="'self-profile-summary.html'"></div> -->
+
+                <h2>{{ review.year }} {{ review.type }} Review</h2>
+
+                <p>
+                    By manager {{ review.from }}
+                </p>
+
+                <p>
+                    <span ng-if="review.status === 1" class="label label-success">FINAL</span>
+                    <span ng-if="review.status === 2" class="label label-warning">PENDING MANAGER</span>
+                    <span ng-if="review.status === 3" class="label label-warning">PENDING EMPLOYEE</span>
+                    <span ng-if="review.status === 4" class="label label-danger">NOT STARTED</span>                    
+                </p>
+
+                <!-- <p>
+                    <span style="font-size:1.2em;"></span>
+                </p> -->                
+
+                <p><span style="font-size: 3em;">{{ review.score }} / 10</span></p>
+
+                <p style="font-family: 'Droid Sans Mono', monospace;">{{ review.text }}</p>
+
+                <!-- <textarea rows="25" cols="45">{{ review.text }}</textarea> -->
+
+            </div>
+
+        </div>
+    
+    </div>
+    
+    
+    
+</div>

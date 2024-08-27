@@ -1,0 +1,67 @@
+<div class="container-fluid">
+        
+    <div class="row">
+
+        <div class="col-sm-12 col-md-12 col-lg-8" 
+        style="
+        margin-top: 30px;
+        background-color: white;
+        border-top: 1px solid #e7eaec;
+        padding: 20px;
+        ">
+
+            <div style="border-bottom: 1px dotted #e7eaec;">
+
+                <div ng-include="'employee-profile-summary.html'"></div>
+
+                <p>{{ selectedEmployee.bio }} </p>
+                
+                <p>
+                    <strong>Department:</strong> {{ selectedEmployee.department }}
+                </p>
+
+                <p>
+                    <strong>Manager:</strong> <a href="#!/employee/profile/{{ selectedEmployee.managerId }}">{{ selectedEmployee.managerName }}</a>
+                </p>
+
+                <br />
+
+                <form>
+
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <div class="form-group">
+                            <label for="emailAddress">Email address</label>
+                            <input value="{{ selectedEmployee.email }}" type="email" disabled class="form-control" id="emailAddress" placeholder="Email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="linkedin">LinkedIn profile</label>
+                            <input value="{{ selectedEmployee.linkedin }}" type="text" disabled class="form-control" id="linkedin" placeholder="LinkedIn profile URL">
+                        </div>                  
+                        
+                        <div class="form-group">
+                            <label for="workPhone">Work phone</label>
+                            <input value="{{ selectedEmployee.workPhone }}" type="text" disabled class="form-control" id="workPhone" placeholder="Work phone number">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cellPhone">Cell phone</label>
+                            <input value="{{ selectedEmployee.cellPhone }}" type="text" disabled class="form-control" id="cellPhone" placeholder="Cell phone number">
+                        </div>
+                        
+                    </fieldset>
+                    
+                    <br />
+                    
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</div>

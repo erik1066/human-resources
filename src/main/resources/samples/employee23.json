@@ -1,0 +1,44 @@
+{
+    "id" : "234731b8-f789-464a-a13a-39c1d93d91b6",
+    "firstName" : "Ronin",
+    "lastName" : "McIntosh",
+    "startDate" : "2017-05-01T00:00:00.000",
+    "title" : "Office Manager",
+    "email" : "ronin.mcintosh@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "2457 11th Ave",
+    "streetAddress2" : "Apt 150",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30324",
+
+    "department": "Human Resources",
+    "managerId" : "a1b0af19-aa12-479d-a2a2-72d56c98ebec",
+
+    "bio": "I love the movies!",
+
+    "workPhone" : "404-555-0006",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 3269, 
+
+    "reviews" : [
+        {
+            "id" : "2cdd34a4-c5a7-4364-a593-1c1fdf527f7b",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Alma Kawana",
+            "fromId" : "a1b0af19-aa12-479d-a2a2-72d56c98ebec",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.5
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

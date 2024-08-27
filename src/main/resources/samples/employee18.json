@@ -1,0 +1,44 @@
+{
+    "id" : "df7686d8-2795-4100-9716-d632540ea057",
+    "firstName" : "Jeremy",
+    "lastName" : "Bhatia",
+    "startDate" : "2017-04-01T00:00:00.000",
+    "title" : "Senior Accountant",
+    "email" : "jeremy.bhatia@xyz.com",
+    "photoUrl" : "icon22.png",
+    "streetAddress1" : "324 Franklin Road",
+    "streetAddress2" : "Apt 1000",
+    "city" : "Brookhaven",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Accounting",
+    "managerId" : "30a6bf97-65e6-4e33-9866-b4bc29f82e8b",
+
+    "bio": "No comments at this time",
+
+    "workPhone" : "404-555-0001",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 4807, 
+
+    "reviews" : [
+        {
+            "id" : "2a5171c1-d668-4fef-ab34-b2c572147fe8",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Sachin Patel",
+            "fromId" : "30a6bf97-65e6-4e33-9866-b4bc29f82e8b",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.5
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

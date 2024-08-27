@@ -1,0 +1,44 @@
+{
+    "id" : "df292109-4c6c-43a7-83da-1f44d97d4ec9",
+    "firstName" : "Harry",
+    "lastName" : "Armstrong",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Line Worker",
+    "email" : "Harry.Armstrong@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "7800 Streamside Drive",
+    "streetAddress2" : null,
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Manufacturing",
+    "managerId" : "6e346d4d-44da-419a-9578-88d1f57b9432",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-7016",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2769, 
+
+    "reviews" : [
+        {
+            "id" : "6367d23f-6b53-49a4-95a8-66ee59762eb7",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Mary Cisneros",
+            "fromId" : "6e346d4d-44da-419a-9578-88d1f57b9432",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 9.0
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

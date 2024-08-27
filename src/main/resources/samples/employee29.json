@@ -1,0 +1,44 @@
+{
+    "id" : "1400cebf-36da-4aa8-af85-9423df78c1f1",
+    "firstName" : "Bishop",
+    "lastName" : "Jones",
+    "startDate" : "2017-03-01T00:00:00.000",
+    "title" : "HR Specialist",
+    "email" : "bishop.jones@xyz.com",
+    "photoUrl" : "icon28.png",
+    "streetAddress1" : "7634 Powers Ferry Drive",
+    "streetAddress2" : null,
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30326",
+
+    "department": "Human Resources",
+    "managerId" : "a1b0af19-aa12-479d-a2a2-72d56c98ebec",
+
+    "bio": "I love boating! And photoshop.",
+
+    "workPhone" : "404-555-0012",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2884, 
+
+    "reviews" : [
+        {
+            "id" : "6de2a4a8-c644-4e06-8e8a-347da9a607e0",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Alma Kawana",
+            "fromId" : "a1b0af19-aa12-479d-a2a2-72d56c98ebec",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.5
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

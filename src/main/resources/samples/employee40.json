@@ -1,0 +1,44 @@
+{
+    "id" : "437d3a90-d40f-4a3d-a72c-fccd85e49ffb",
+    "firstName" : "Larry",
+    "lastName" : "Kyle",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Director of Manufacturing",
+    "email" : "Larry.Kyle@xyz.com",
+    "photoUrl" : "icon36.png",
+    "streetAddress1" : "312 17th Street",
+    "streetAddress2" : "Unit 850",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30338",
+
+    "department": "Manufacturing",
+    "managerId" : "774614f2-6c16-4158-a439-3c8e0c707c2e",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-7001",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 5153, 
+
+    "reviews" : [
+        {
+            "id" : "338377f4-0700-407a-a460-a31d7f4f8f3f",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Jason Williams",
+            "fromId" : "774614f2-6c16-4158-a439-3c8e0c707c2e",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.7
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

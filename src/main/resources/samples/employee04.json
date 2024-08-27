@@ -1,0 +1,71 @@
+{
+    "id" : "d3b38edc-8367-4e36-86ce-b3218230291a",
+    "firstName" : "Jennifer",
+    "lastName" : "Kim",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Marketing Director",
+    "email" : "jennifer.kim@xyz.com",
+    "photoUrl" : "icon14.png",
+    "streetAddress1" : "4567 Peachtree Road NE",
+    "streetAddress2" : "Apt 500",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30326",
+
+    "department": "Marketing",
+    "managerId" : "1284ac30-8b03-44fb-96c1-50b04ec13ee6",
+
+    "bio": "Worked ten years on strategic business development efforts, directing media relations, branding, advertising and website development. Manages and oversees sponsorships, events, charitable contributions, and marketing training. Former officer in the U.S. Air Force with an undergrad in political science from the U.S. Air Force Academy. I love swimming, tennis, and triathalons. Always push yourself!",
+
+    "workPhone" : "404-555-4567",
+    "homePhone" : null,
+    "cellPhone" : "404-555-0486",
+    
+    "isActive" : true,
+    "salary" : 5576, 
+
+    "reviews" : [
+        {
+            "id" : "0fa7021a-8aba-431e-ada5-c25a8bbde8ad",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Sarah Menendez",
+            "fromId" : "1284ac30-8b03-44fb-96c1-50b04ec13ee6",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Excellent job, Jennifer!",
+            "score" : 10.0
+        }
+    ],
+
+    "requests" : [
+        {
+            "id": "afa4b691-7c13-45fa-a631-a94fbb90ff25",
+            "dateCreated" : "2017-12-01T11:00:00.000",
+            "status" : "Approved",
+            "type" : "AnnualLeave",
+            "submitterId" : "d3b38edc-8367-4e36-86ce-b3218230291a",
+            "submitterRole" : "Employee",
+            "submitterComments" : "Wish to travel back home to see family around time for Christmas",
+            "actions" : [
+                {
+                    "id" : "bad5248d-a905-426a-986e-42e7e41e8c00",
+                    "actorId" : "1284ac30-8b03-44fb-96c1-50b04ec13ee6",
+                    "dateCreated" : "2017-12-01T14:00:00.000",
+                    "dateActedOn" : "2017-12-01T14:00:00.000",
+                    "actorRole" : "Manager",
+                    "actorComments" : "Approved, have a good time!",
+                    "outcome" : "Approved"
+                }
+            ],
+            "timeOff" : {
+                "dateBegins" : "2017-12-18T00:00:00.000",
+                "dateEnds" : "2017-12-22T23:59:59.999",
+                "daysUsed" : 0.0,
+                "daysAccrued" : 11.0,
+                "daysScheduled" : 0.0,
+                "daysAvailable" : 11.0
+            }
+        }
+    ]    
+}

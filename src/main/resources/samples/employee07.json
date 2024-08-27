@@ -1,0 +1,44 @@
+{
+    "id" : "4199175f-2739-4877-ac08-2a2e355c826d",
+    "firstName" : "Chloe",
+    "lastName" : "Hopkins",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Engineer",
+    "email" : "chloe.hopkins@xyz.com",
+    "photoUrl" : "icon15.png",
+    "streetAddress1" : "731 Piedmont Road",
+    "streetAddress2" : "Apt 100",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30326",
+
+    "department": "Engineering",
+    "managerId" : "930811d9-bdba-48b6-854d-2244d0bcdc5b",
+
+    "bio": "Ruby and Java developer, also, I drive a motorcycle.",
+
+    "workPhone" : "404-555-2456",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 4083, 
+
+    "reviews" : [
+        {
+            "id" : "dfe5d204-4c9b-4362-8c71-19ee3c730ad7",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Tiffany Zhang",
+            "fromId" : "930811d9-bdba-48b6-854d-2244d0bcdc5b",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Excellent work!",
+            "score" : 8.0
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

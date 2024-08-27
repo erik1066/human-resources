@@ -1,0 +1,44 @@
+{
+    "id" : "ffcbf860-b7b0-42a4-ae84-1479aa317f79",
+    "firstName" : "Helen",
+    "lastName" : "Mannheim",
+    "startDate" : "2017-04-01T00:00:00.000",
+    "title" : "Senior Accountant",
+    "email" : "helen.mannheim@xyz.com",
+    "photoUrl" : "icon21.png",
+    "streetAddress1" : "1243 Henderson Drive",
+    "streetAddress2" : null,
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30326",
+
+    "department": "Accounting",
+    "managerId" : "30a6bf97-65e6-4e33-9866-b4bc29f82e8b",
+
+    "bio": "UGA grad (go dawgs!) and I did a study abroad in Germany working with Rheinmetal. I've spent the last eight years working at Go-ca-cola and am excited to be working at a forward-looking company like XYZ! And can the Braves finally start winning next season??",
+
+    "workPhone" : "404-555-3566",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 4807, 
+
+    "reviews" : [
+        {
+            "id" : "f1aa83fd-d9e8-489e-a417-34ae19563eb1",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Sachin Patel",
+            "fromId" : "30a6bf97-65e6-4e33-9866-b4bc29f82e8b",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.5
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

@@ -1,0 +1,30 @@
+<img src="images/{{ currentEmployee.photoUrl }}" style="border-radius: 50%; float: left; margin-right: 10px;" />
+
+<div style="float: left">
+    <div style="margin-bottom: 10px;">
+        <span style="font-weight: 600; font-size: 1.8rem;">{{ currentEmployee.firstName }} {{ currentEmployee.lastName }}</span>&nbsp; &nbsp;<small><a href="#"><i class="fa fa-pencil"></i> Edit profile</a> </small>
+    </div>
+    <p><span class="label label-info" style="font-size: 0.87em;">{{ currentEmployee.title }}</span></p>
+
+    <p>Employed at XYZ since {{ currentEmployee.startDate | date:'MMMM d, yyyy' }}</p>
+</div>
+
+<div style="float: right">
+    <ul style="list-style: none; list-style-position: inside; display: block;
+    text-indent: -0.7em;
+    padding-left: 1em;">
+        <li style="margin-bottom: 8px;">
+            <a href="mailto:{{ currentEmployee.email }}"><i class="fa fa-envelope"></i> Email</a>
+        </li>
+
+        <li style="margin-bottom: 8px;">
+            <a href="tel:{{ currentEmployee.workPhone }}"><i class="fa fa-phone"></i> {{ currentEmployee.workPhone }}</a>
+        </li>
+
+        <li>
+            <a href="#"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+        </li>
+    </ul>
+</div>
+
+<hr style="clear: both;" />   

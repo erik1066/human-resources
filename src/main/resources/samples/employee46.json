@@ -1,0 +1,44 @@
+{
+    "id" : "1f0f7ae4-5b9c-42a0-9e44-d31e50ddf187",
+    "firstName" : "Spencer",
+    "lastName" : "Capasso",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Line Worker",
+    "email" : "Spencer.Capasso@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "8230 Huntington Chase",
+    "streetAddress2" : null,
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Manufacturing",
+    "managerId" : "29cc10c4-52fe-43d6-b393-8cd92921e44f",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-7007",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2769, 
+
+    "reviews" : [
+        {
+            "id" : "34b6509c-fa75-4c69-86ac-c6b7567a8179",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Enrique Bautista",
+            "fromId" : "29cc10c4-52fe-43d6-b393-8cd92921e44f",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.7
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

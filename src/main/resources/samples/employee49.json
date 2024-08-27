@@ -1,0 +1,44 @@
+{
+    "id" : "d1bbe879-91ca-4d4c-8d02-8dc1eeef355e",
+    "firstName" : "Luke",
+    "lastName" : "Silva",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Line Worker",
+    "email" : "Luke.Silva@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "2000 Mendenhall Road",
+    "streetAddress2" : null,
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Manufacturing",
+    "managerId" : "29cc10c4-52fe-43d6-b393-8cd92921e44f",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-7010",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2469, 
+
+    "reviews" : [
+        {
+            "id" : "11732738-ed64-4da8-a1c9-904e1985499f",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Enrique Bautista",
+            "fromId" : "29cc10c4-52fe-43d6-b393-8cd92921e44f",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.7
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

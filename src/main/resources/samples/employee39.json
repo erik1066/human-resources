@@ -1,0 +1,44 @@
+{
+    "id" : "3c89774f-1526-4ae8-96b7-ef002cd0cdf0",
+    "firstName" : "Duane",
+    "lastName" : "Baxter",
+    "startDate" : "2017-06-01T00:00:00.000",
+    "title" : "Graphic Designer",
+    "email" : "duane.baxter@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "1241 14th Ave",
+    "streetAddress2" : "Unit 450",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30338",
+
+    "department": "Marketing",
+    "managerId" : "cb2c6946-8557-49f0-bb90-976681b54379",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-8761",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2800, 
+
+    "reviews" : [
+        {
+            "id" : "456eb4da-b0f1-4ac5-8004-bbd4e77e19d7",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Monica Kang",
+            "fromId" : "cb2c6946-8557-49f0-bb90-976681b54379",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.7
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

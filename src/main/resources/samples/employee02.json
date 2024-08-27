@@ -1,0 +1,108 @@
+{
+    "id" : "774614f2-6c16-4158-a439-3c8e0c707c2e",
+    "firstName" : "Jason",
+    "lastName" : "Williams",
+    "startDate" : "2017-01-09T00:00:00.000",
+    "title" : "Chief Operating Officer",
+    "email" : "jason.williams@xyz.com",
+    "photoUrl" : "icon08.png",
+    "streetAddress1" : "1234 Northside Drive",
+    "streetAddress2" : "Apt 200",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Executive",
+    "managerId" : "1284ac30-8b03-44fb-96c1-50b04ec13ee6",
+
+    "bio": "Extensive experience directing logistical operations at various organizations, including at UPS, the Savannah port authority, and four years in the U.S. Army as an 88N Transportation Management Coordinator for FOB Taji in Iraq (2006-2007) for the 7th Sustainment Brigade.",
+
+    "workPhone" : "404-555-2345",
+    
+    "cellPhone" : "2345",
+    
+    "isActive" : true,
+    "salary" : 6703, 
+
+    "reviews" : [
+        {
+            "id" : "257cac47-8564-49f5-8a8a-a858770ba4a1",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Sarah Menendez",
+            "fromId" : "1284ac30-8b03-44fb-96c1-50b04ec13ee6",
+            "dateCreated" : "2017-07-16T13:00:00.000",
+            "text" : "Excellent job, Jason! You've overseen the operations side of things very well. Keep up the great work!",
+            "score" : 10.0            
+        }
+    ],
+
+    "requests" : [
+        {
+            "id": "31d5da93-d093-441f-b5f2-23d019a5683f",
+            "dateCreated" : "2017-04-05T13:00:00.000",
+            "status" : "Approved",
+            "type" : "AnnualLeaveBeyondAccrued",
+            "submitterId" : "774614f2-6c16-4158-a439-3c8e0c707c2e",
+            "submitterRole" : "Employee",
+            "submitterComments" : "Taking a family vacation to the Grand Canyon",
+            "actions" : [
+                {
+                    "id" : "1a400ba4-eb69-4a9b-8566-dead26385281",
+                    "actorId" : "1284ac30-8b03-44fb-96c1-50b04ec13ee6",
+                    "dateCreated" : "2017-04-16T14:00:00.000",
+                    "dateActedOn" : "2017-04-16T14:00:00.000",
+                    "actorRole" : "Manager",
+                    "actorComments" : "Requestor will have enough accrued leave hours by the time the leave is to occur, so I am approving.",
+                    "outcome" : "Approved"
+                },
+                {
+                    "id" : "36239a42-6d00-460c-8041-fcaea067b610",
+                    "actorId" : "d4431bcb-4320-4461-b72e-8bbc3dcf4105",
+                    "dateCreated" : "2017-04-16T15:00:00.000",
+                    "dateActedOn" : "2017-04-16T15:00:00.000",
+                    "actorRole" : "HR",
+                    "actorComments" : "HR concurs with manager, approved.",
+                    "outcome" : "Approved"
+                }
+            ],
+            "timeOff" : {
+                "dateBegins" : "2017-05-01T00:00:00.000",
+                "dateEnds" : "2017-05-04T23:59:59.999",
+                "daysUsed" : 0.0,
+                "daysAccrued" : 3.0,
+                "daysScheduled" : 0.0,
+                "daysAvailable" : 3.0
+            }
+        },
+        {
+            "id": "45639ed5-08ba-4046-aa3b-350b8b04f86a",
+            "dateCreated" : "2017-03-15T11:08:00.000",
+            "status" : "Approved",
+            "type" : "SickLeave",
+            "submitterId" : "774614f2-6c16-4158-a439-3c8e0c707c2e",
+            "submitterRole" : "Employee",
+            "submitterComments" : "Upset stomach today",
+            "actions" : [
+                {
+                    "id" : "d2e8cfe4-2422-481f-bba1-b79cd48772c8",
+                    "actorId" : "1284ac30-8b03-44fb-96c1-50b04ec13ee6",
+                    "dateCreated" : "2017-03-15T11:09:00.000",
+                    "dateActedOn" : "2017-03-15T11:09:00.000",
+                    "actorRole" : "Manager",
+                    "actorComments" : "Something is going around, get well!",
+                    "outcome" : "Approved"
+                }
+            ],
+            "timeOff" : {
+                "dateBegins" : "2017-03-15T00:00:00.000",
+                "dateEnds" : "2017-03-15T23:59:59.999",
+                "daysUsed" : 0.0,
+                "daysAccrued" : 4.5,
+                "daysScheduled" : 0.0,
+                "daysAvailable" : 4.5
+            }     
+        }
+    ]    
+}

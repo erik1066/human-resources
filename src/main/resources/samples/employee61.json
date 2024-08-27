@@ -1,0 +1,44 @@
+{
+    "id" : "c09a8186-8bbd-4ce7-a443-718f63e99d3e",
+    "firstName" : "Krista",
+    "lastName" : "Diaz",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Line Worker",
+    "email" : "Krista.Diaz@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "1234 Shady Lane",
+    "streetAddress2" : null,
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Manufacturing",
+    "managerId" : "6e346d4d-44da-419a-9578-88d1f57b9432",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-7022",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2769, 
+
+    "reviews" : [
+        {
+            "id" : "b1897770-f2c8-4d5c-8bcd-a47a4b962c53",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Mary Cisneros",
+            "fromId" : "6e346d4d-44da-419a-9578-88d1f57b9432",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 9.0
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

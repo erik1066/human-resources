@@ -1,0 +1,19 @@
+<head>
+</head>
+<body>
+<div>
+         Boardcast message:
+         <input type ="text" ng-model ="message"/>
+         <br> </br>
+ <input type="button" value="Show Boardcast message" ng-click="ShowAlert()" />         
+ </div>
+ <br></br>
+ <form action="?#!/sysadmin/maintenance" method="post">
+         <bold>Start at: </bold> <input type="datetime-local" name="starttime"><br><br>
+         <bold>Ends at: </bold>  <input type="datetime-local" name="endtime"><br><br>
+         <input type="submit" value="Confirm">
+         <input type="submit" value="Cancel">
+         </form>
+    
+</body>
+</html>

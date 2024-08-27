@@ -1,0 +1,44 @@
+{
+    "id" : "c2117e2d-b4cd-4873-a036-0a6a4f210f6b",
+    "firstName" : "Alan",
+    "lastName" : "Hagan",
+    "startDate" : "2017-03-01T00:00:00.000",
+    "title" : "Administrative Assistant",
+    "email" : "alan.hagan@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "3456 Westside Blvd",
+    "streetAddress2" : "Apt 700",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30326",
+
+    "department": "Human Resources",
+    "managerId" : "a1b0af19-aa12-479d-a2a2-72d56c98ebec",
+
+    "bio": "Go Falcons!",
+
+    "workPhone" : "404-555-0009",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2307, 
+
+    "reviews" : [
+        {
+            "id" : "938edc95-1d53-4e60-ae45-8b9f767705e5",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Alma Kawana",
+            "fromId" : "a1b0af19-aa12-479d-a2a2-72d56c98ebec",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.5
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

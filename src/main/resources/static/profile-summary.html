@@ -1,0 +1,30 @@
+<img src="images/{{ selectedEmployee.photoUrl }}" style="border-radius: 50%; float: left; margin-right: 10px;" />
+
+<div style="float: left">
+    <div style="margin-bottom: 10px;">
+        <span style="font-weight: 600; font-size: 1.8rem;">{{ selectedEmployee.firstName }} {{ selectedEmployee.lastName }}</span>&nbsp; &nbsp;<small ng-if="selectedEmployee == currentEmployee"><a href="#"><i class="fa fa-pencil"></i> Edit profile</a> </small>
+    </div>
+    <p><span class="label label-info">{{ selectedEmployee.title }}</span></p>
+
+    <p>Employed at XYZ since {{ selectedEmployee.startDate | date:'MMMM d, yyyy' }}</p>
+</div>
+
+<div style="float: right">
+    <ul style="list-style: none; list-style-position: inside; display: block;
+    text-indent: -0.7em;
+    padding-left: 1em;">
+        <li style="margin-bottom: 8px;">
+            <a href="mailto:{{ selectedEmployee.email }}"><i class="fa fa-envelope"></i> Email</a>
+        </li>
+
+        <li style="margin-bottom: 8px;">
+            <a href="tel:{{ selectedEmployee.workPhone }}"><i class="fa fa-phone"></i> {{ selectedEmployee.workPhone }}</a>
+        </li>
+
+        <li>
+            <a href="#"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+        </li>
+    </ul>
+</div>
+
+<hr style="clear: both;" />   

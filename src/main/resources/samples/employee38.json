@@ -1,0 +1,44 @@
+{
+    "id" : "27cf373e-a621-4182-9937-47385563b1fc",
+    "firstName" : "Adrian",
+    "lastName" : "Hernandez",
+    "startDate" : "2017-06-01T00:00:00.000",
+    "title" : "Graphic Designer",
+    "email" : "adrian.hernandez@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "1231 Shallowford Road",
+    "streetAddress2" : "Apt 800",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Marketing",
+    "managerId" : "cb2c6946-8557-49f0-bb90-976681b54379",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-9710",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2800, 
+
+    "reviews" : [
+        {
+            "id" : "5da30c0a-6c16-4015-9aae-21bf4fd39943",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Monica Kang",
+            "fromId" : "cb2c6946-8557-49f0-bb90-976681b54379",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.6
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

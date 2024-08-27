@@ -1,0 +1,43 @@
+{
+    "id" : "c47bcc4f-1af6-4f14-be46-3b8a6e9d4510",
+    "firstName" : "Janet",
+    "lastName" : "Wong",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Information Security Specialist",
+    "email" : "janet.wong@xyz.com",
+    "photoUrl" : "icon33.png",
+    "streetAddress1" : "2445 Parker Ave",
+    "streetAddress2" : "Apt 100",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30326",
+
+    "department": "Engineering",
+    "managerId" : "c0011a7e-5fe3-4144-9156-fef7ae12cff8",
+
+    "bio": "Stopping hackers!",
+
+    "workPhone" : "404-555-3456",
+    "homePhone" : null,
+    "cellPhone" : "404-555-1134",
+    
+    "isActive" : true,
+    "salary" : 5692,
+
+    "reviews" : [
+        {
+            "id" : "d63b9691-385a-4ef8-ae9c-617963fd0f3d",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Kim Trung",
+            "fromId" : "d0a71c69-c6c2-4280-a9d7-17054117647c",
+            "dateCreated" : "2017-07-14T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 9.0
+        }
+    ],
+
+    "requests" : [
+    ]    
+}

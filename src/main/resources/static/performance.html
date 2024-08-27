@@ -1,0 +1,62 @@
+<div class="container-fluid">
+        
+    <div class="row">
+
+        <div class="col-sm-12 col-md-12 col-lg-8" 
+        style="
+        margin-top: 30px;
+        background-color: white;
+        border-top: 1px solid #e7eaec;
+        padding: 20px;
+        ">
+    
+            <div style="border-bottom: 1px dotted #e7eaec;">
+
+                <div ng-include="'self-profile-summary.html'"></div>
+
+                <!-- <h2>Evaluations</h2> -->
+
+                <table class="table table-bordered table-striped">
+                    <caption>Evaluations</caption>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Type</th>
+                            <th>Status</th>
+                            <th>From</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>   
+                        <tr ng-repeat="review in employee.reviews">
+                            <th scope="row">
+                                <strong><a href="/#!employee/performance/review/{{ review.id }}">{{ review.year }}</a></strong>
+                            </td>
+
+                            <td>
+                                {{ review.type }}
+                            </td>
+                            <td>
+                                
+                                    <span ng-if="review.status === 1" class="label label-success">FINAL</span>
+                                    <span ng-if="review.status === 2" class="label label-warning">PENDING MANAGER</span>
+                                    <span ng-if="review.status === 3" class="label label-warning">PENDING EMPLOYEE</span>
+                                    <span ng-if="review.status === 4" class="label label-danger">NOT STARTED</span>
+                                
+                            </td>
+                            <td>
+                                {{ review.from }}
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+    
+        </div>
+    
+    
+    
+    </div>

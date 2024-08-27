@@ -1,0 +1,43 @@
+{
+    "id" : "dbd944e3-9bc2-46d0-85aa-a8f203b6ce54",
+    "firstName" : "Michael",
+    "lastName" : "Zimber",
+    "startDate" : "2017-04-01T00:00:00.000",
+    "title" : "Information Security Specialist",
+    "email" : "michael.zimber@xyz.com",
+    "photoUrl" : "icon34.png",
+    "streetAddress1" : "2314 Folsom Dr",
+    "streetAddress2" : "Apt 200",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30326",
+
+    "department": "Engineering",
+    "managerId" : "c0011a7e-5fe3-4144-9156-fef7ae12cff8",
+
+    "bio": "Insert funny comments here?",
+
+    "workPhone" : "404-555-0128",
+    "homePhone" : null,
+    "cellPhone" : "404-555-7777",
+    
+    "isActive" : true,
+    "salary" : 5680,
+
+    "reviews" : [
+        {
+            "id" : "67b72cca-9050-4c5d-a138-3b95aa8fe958",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Kim Trung",
+            "fromId" : "d0a71c69-c6c2-4280-a9d7-17054117647c",
+            "dateCreated" : "2017-07-14T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 9.0
+        }
+    ],
+
+    "requests" : [
+    ]    
+}

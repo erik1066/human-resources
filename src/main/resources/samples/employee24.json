@@ -1,0 +1,44 @@
+{
+    "id" : "31c6e5dd-415e-42b4-a0df-b7c21178dbef",
+    "firstName" : "Adrian",
+    "lastName" : "Brien",
+    "startDate" : "2017-05-01T00:00:00.000",
+    "title" : "Administrative Assistant",
+    "email" : "adrian.brien@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "3456 Fuller Rd",
+    "streetAddress2" : "Apt 500",
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30326",
+
+    "department": "Human Resources",
+    "managerId" : "a1b0af19-aa12-479d-a2a2-72d56c98ebec",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-0007",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2307, 
+
+    "reviews" : [
+        {
+            "id" : "ba9a2004-40e1-4e3f-883e-d5bf13a21d3f",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Alma Kawana",
+            "fromId" : "a1b0af19-aa12-479d-a2a2-72d56c98ebec",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.5
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}

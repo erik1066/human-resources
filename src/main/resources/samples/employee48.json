@@ -1,0 +1,44 @@
+{
+    "id" : "5096e93c-9e8a-4c29-ae15-2051ed375a35",
+    "firstName" : "Gianna",
+    "lastName" : "Cottom",
+    "startDate" : "2017-02-01T00:00:00.000",
+    "title" : "Line Worker",
+    "email" : "Gianna.Cottom@xyz.com",
+    "photoUrl" : null,
+    "streetAddress1" : "400 Harts Mill Road",
+    "streetAddress2" : null,
+    "city" : "Atlanta",
+    "state" : "GA",
+    "zip" : "30325",
+
+    "department": "Manufacturing",
+    "managerId" : "29cc10c4-52fe-43d6-b393-8cd92921e44f",
+
+    "bio": "No comment",
+
+    "workPhone" : "404-555-7009",
+    "homePhone" : null,
+    "cellPhone" : null,
+    
+    "isActive" : true,
+    "salary" : 2569, 
+
+    "reviews" : [
+        {
+            "id" : "e086868a-5359-4449-87d1-de4b29a32c97",
+            "year" : "2017",
+            "status" : 1,
+            "type" : "Midyear",
+            "from" : "Enrique Bautista",
+            "fromId" : "29cc10c4-52fe-43d6-b393-8cd92921e44f",
+            "dateCreated" : "2017-07-02T09:00:00.000",
+            "text" : "Good job!",
+            "score" : 8.7
+        }
+    ],
+
+    "requests" : [
+        
+    ]    
+}
